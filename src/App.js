@@ -32,7 +32,8 @@ function App() {
   const [color, setColor] = useState({
     hue: 120,
     brightness: 1,
-    saturation: 1
+    saturation: 1,
+    alpha: 0.7
   });
   function hslToHex(h, s, l) {
     h /= 360;
@@ -73,8 +74,7 @@ function App() {
   return (
     <div>
       <input type="text" onChange={getData} />
-
-      <ColorPicker onChange={(e) => setColor(e)} color={color} />
+      <ColorPicker onChange={(e) => setColor(e)} color={color} allowAlpha />;
       <h1
         className="PrintData1"
         style={{
