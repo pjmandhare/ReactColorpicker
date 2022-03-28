@@ -7,13 +7,13 @@
   background-color: black;
   margin-top: 100px;
   margin-left: 100px;
-  background-position: 500cm 500cm;
+  background-position: 1000cm 500cm;
 
   border: 2px solid black;
   padding: 25px;
   word-wrap: break-word;
   line-height: normal;
-  background-size: 1000px 500px;
+  
 }
 .blocktext {
   margin-left: auto;
