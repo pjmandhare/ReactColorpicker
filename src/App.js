@@ -32,8 +32,7 @@ function App() {
   const [color, setColor] = useState({
     hue: 120,
     brightness: 1,
-    saturation: 1,
-    alpha: 0.7
+    saturation: 1
   });
   function hslToHex(h, s, l) {
     h /= 360;
